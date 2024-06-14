@@ -1,8 +1,11 @@
-# React + Vite
+# ESLint
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Ferramenta para padronizar escrita de código
+- Definir padrões de código, escrita, estilo etc.
+- Evitar erros
 
-Currently, two official plugins are available:
+# Prettier
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ferramenta para padronizar formatação do nosso código
+
+# Padronizar o código entre vários membros da equipe
