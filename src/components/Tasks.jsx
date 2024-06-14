@@ -1,15 +1,15 @@
-import { useState } from "react";
-import Header from "./Header";
+import { useState } from "react"
+import Header from "./Header"
 
 function Tasks() {
-  const [inputValue, setInputValue] = useState("teste");
+  const [inputValue, setInputValue] = useState("teste")
   const [messages, setMessages] = useState([
     "Hello world",
     "FSC is the best course in the world",
-  ]);
+  ])
 
   function handleButtonClick() {
-    setMessages([...messages, inputValue]);
+    setMessages([...messages, inputValue])
   }
 
   return (
@@ -37,12 +37,12 @@ function Tasks() {
       <div>
         <ul>
           {messages.map((message) => {
-            return <li>{message}</li>;
+            return <li key={message}>{message}</li>
           })}
         </ul>
       </div>
     </div>
-  );
+  )
 }
 
-export default Tasks;
+export default Tasks
