@@ -1,18 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": "2",
-      "title": "teste 2",
-      "description": "asdasa",
-      "time": "morning",
-      "status": "done"
-    },
-    {
-      "id": "7bd7da4f-8686-439d-be4d-975bb45b7fd4",
-      "title": "Estudar FSC",
-      "time": "evening",
-      "description": "Teste",
-      "status": "not_started"
-    }
-  ]
+  "tasks": []
 }
